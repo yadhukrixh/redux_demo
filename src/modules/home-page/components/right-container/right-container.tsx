@@ -48,7 +48,7 @@ const RightContainer = () => {
   // Redux state selectors
   const heading = useSelector((state: RootState) => state.children.childrenString);
   const countFromHeader = useSelector((state: RootState) => state.header.headerNumber);
-  const countByRightChildren = useSelector((state: RootState) => state.children.rightChildrenNumber);
+  const countByLeftChildren = useSelector((state: RootState) => state.children.leftChildrenNumber);
 
   return (
     <div className={styles.rightContainer}>
@@ -59,7 +59,7 @@ const RightContainer = () => {
         <button onClick={handleDecrement}>-</button>
       </div>
       <p>Count of header: {countFromHeader}</p>
-      <p>Count of Left container: {countByRightChildren}</p>
+      <p>Count of Left container: {countByLeftChildren}</p>
       <button onClick={handleHeaderChange}>Change Header content</button>
     </div>
   );
