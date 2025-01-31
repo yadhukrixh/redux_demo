@@ -169,13 +169,5 @@ vercel deploy
 
 ---
 
-## 📌 Contributing
-1. **Fork** the repository
-2. **Create** a new branch (`feature/your-feature`)
-3. **Commit** your changes (`git commit -m 'Added new feature'`)
-4. **Push** to your branch (`git push origin feature/your-feature`)
-5. **Submit** a Pull Request
-
----
 
 
