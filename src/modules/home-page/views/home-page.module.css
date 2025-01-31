@@ -1,0 +1,7 @@
+.homePage{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 10px;
+}

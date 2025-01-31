@@ -1,0 +1,19 @@
+.rightContainer{
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rightContainer button{
+    padding: 5px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
